@@ -17,14 +17,25 @@ To write a program to find the GCD of two numbers using function.
 ```
 /*
 Program to find the gcd of two number using function.
-Developed by: 
-RegisterNumber:  
+Developed by: Dharini PV
+RegisterNumber:  212222240024
 */
+def gcd():
+    n1=int(input())
+    n2=int(input())
+    if n1<n2:
+        smaller=n1
+    else:
+        smaller=n2
+    for i in range(1,smaller+1):
+        if n1%i==0 and n2%i==0:
+            value=i
+    print("GCD of two numbers is:",value)
 ```
 
 ## Output:
-![gcd of two number](gcd.png)
 
+![image](https://github.com/DHARINIPV/GCD-of-two-numbers/assets/119400845/96504a01-8094-4591-86f1-a43b591d65e6)
 
 ## Result:
 Thus the program to find the GCD of two numbers is written and verified using python programming.
